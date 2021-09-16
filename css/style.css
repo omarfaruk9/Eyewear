@@ -1,0 +1,79 @@
+.button {
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+.banner-bg {
+    background-color: #011321;
+}
+
+.button-bg {
+    background-image: linear-gradient(to right, rgb(250 50 50), rgb(22 80 110));
+}
+
+.background {
+    height: 100vh;
+    background-image: url("../images/img.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-img {
+    margin-bottom: 220px;
+    z-index: 1;
+}
+
+.view {
+    z-index: 2;
+}
+
+/* intro images  */
+
+.intro-img {
+    margin-top: -158px;
+}
+
+.icons {
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+/* delivery info  */
+
+.delivery {
+    background-color: #f6f6f6;
+}
+
+.card-hover {
+    transition: .5s;
+}
+
+.card-hover:hover {
+    background-image: linear-gradient(to bottom, rgba(250, 50, 50, 0.7), rgba(22, 80, 110, 0.2));
+    box-shadow: 7px 5px 12px darkblue;
+    border-radius: 15px;
+}
+
+/* footer  */
+
+.footer {
+    background-color: #f6f6f6;
+}
+
+/* media quariiii */
+
+@media only screen and (max-width: 468px) {
+    .intro-img {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width:468px) and (max-width:1000px) {
+    .intro-img {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
